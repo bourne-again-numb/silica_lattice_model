@@ -4,7 +4,8 @@ module to test data_types
 
 import unittest
 
-import data_types as dt
+import pathadd
+from silica_lattice_model import data_types as dt
 
 
 class TestBccLattice3DN1list(unittest.TestCase):
