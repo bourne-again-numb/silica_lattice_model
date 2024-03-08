@@ -14,8 +14,6 @@ class Atom(Enum):
     Oxygen = 4
 
 
-
-
 class BccLattice3D:
     """ The BCC lattice class """
 
