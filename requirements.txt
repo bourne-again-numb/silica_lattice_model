@@ -1,0 +1,15 @@
+cycler            # via matplotlib
+kiwisolver         # via matplotlib
+matplotlib
+numpy
+pandas
+pyparsing          # via matplotlib
+python-dateutil    # via matplotlib, pandas
+pytz              # via pandas
+scipy              # via seaborn
+seaborn
+six               # via cycler, python-dateutil
+cython
+setuptools
+pyproject.toml
+wheel
