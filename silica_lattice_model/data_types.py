@@ -184,7 +184,7 @@ class BccLattice3D:
         """ get the heighbors for isite given a head """
         neighs_list = numpy.zeros(4, dtype=int)
         neighs_id = self.neighbors_for_head(head)
-        for idx, head_id in enumerate(neighs_id):
+        for idx, _ in enumerate(neighs_id):
             neighs_list[idx] = self.n1list[isite, idx]
 
         return neighs_list

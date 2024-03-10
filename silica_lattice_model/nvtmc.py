@@ -1,8 +1,8 @@
 """
 nvtmc
 """
-import numpy
 import random
+import numpy
 
 import pathadd
 import data_types as dt
@@ -12,8 +12,7 @@ class SilicaPolymerizationMC(dt.BccLattice3D):
     """ class containing polymerization reaction  """
 
     def __init__(self, cfg_obj: dt.CfgObj):
-        """
-        initialize the class
+        """ Initialize the class
         Args:
             cfg_obj: the configuration obejct
         """
