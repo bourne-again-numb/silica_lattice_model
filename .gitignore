@@ -5,6 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
+xcutable
 
 # Distribution / packaging
 .Python

@@ -1,0 +1,20 @@
+#!/bin/sh
+
+#BSUB -n 1
+#BSUB -W 1:00
+#BSUB -R rusage[mem=5000]
+#BSUB -J abcdef
+#BSUB -o output.log
+#BSUB -e error.log
+#BSUB -q long
+
+module load gcc
+
+./xcutable
+
+echo ""
+date '+RUN ENDED THE %m/%d/%y AT %H:%M:%S'
+echo ""
+echo ""
+echo "==> Resulting STATUS = $STATUS"
+echo ""
